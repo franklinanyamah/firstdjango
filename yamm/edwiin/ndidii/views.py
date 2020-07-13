@@ -1,0 +1,9 @@
+from django.shortcuts import render
+from django.views.generic import TemplateView
+# Create your views here.
+
+class homepage(TemplateView):
+    template_name = "homepage.html"
+
+class contactpage(TemplateView):
+    template_name = "contact.html"
